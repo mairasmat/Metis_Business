@@ -1,0 +1,25 @@
+# Business Project Proposal
+### Question/need:
+- What is the framing question of your analysis, or the purpose of the model/system you plan to build?
+The purpose of this project will be to analyze features of my data to understand which one(s) contribute most to the attrition rate of unions within each state.
+- Who benefits from exploring this question or building this model/system?
+I will advise the American Federation of Labor and Congress of Undustrial Organizations (AFL_CIO) as they are the larger representation of American unions.
+### Data Description:
+- What dataset(s) do you plan to use, and how will you obtain the data?
+All the datasets I'm using are csv/excel files.
+https://www.kaggle.com/mrisdal/union-membership-coverage - Data on union membership rates and general employment rates in each state from 1983 - 2015 based on census state code. Data was aggregated from http://www.unionstats.com/, so I can add on data from 2016-2020 if needed.
+https://www.bls.gov/news.release/union2.t01.htm - This table (among others) gives demographic info for union and non-union members per state per year. (Unsure if I'll use this, but adding it just in case.)
+Census.govhttps://www2.census.gov › cps › tables › time-series - Downloadable excel file showing median household income by year by state.
+https://www.ncsl.org/research/labor-and-employment/right-to-work-laws-and-bills.aspx - Enactment of right-to-work laws by state.
+- What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
+An individual unit of analysis would be the corresponding union membership/income/etc. data per state per year (aka a row of data in my final table). The columns I'd like to include are: state, year, Union sector, Employed people, Employed workers who are in a union, that percentage, workers covered by a collective bargaining agreement, that percentage, median household income, if right-to-work legislature existed in that year.
+- If modeling, what will you predict as your target?
+I want to report on the features and their impacts, so I won't be creating a model.
+### Tools:
+- How do you intend to meet the tools requirement of the project?
+I will use sheets to clean the data and Tableau to create my visualizations.
+- Are you planning in advance to need or use additional tools beyond those required?
+No.
+### MVP Goal:
+- What would a minimum viable product (MVP) look like for this project?
+A MVP for this project would be a visualization showing how union membership has changed over the years.
